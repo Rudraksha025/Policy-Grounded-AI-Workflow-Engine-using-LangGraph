@@ -27,7 +27,7 @@
 # print("None")
 
 
-from shared.utils import get_policy_retriever
+from src.shared.utils import get_policy_retriever
 
 retriever = get_policy_retriever()
 docs = retriever.invoke("credit score below 600")
